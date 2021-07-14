@@ -103,7 +103,7 @@ main {
 .photo-album {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-gap: 30px;
 }
 .p-container .title {
   font-size: 40px;
@@ -158,22 +158,22 @@ h1 {
   display: flex;
   align-items: center;
 }
-.winner-picture img {
+.w-i img {
   width: 450px;
 }
-.winner-infos {
+.w-i{
   display: flex;
   flex-direction: column;
   width: 466px;
   /*height: 309px; */
 }
-.winner-infos h1 {
+.w-i h1 {
   font-size: 60px;
   width: 485px;
   height: 230px;
   color: black;
 }
-.winner-infos a {
+.w-i a {
   color: #ffffff;
   text-align: center;
   padding-top: 4%;
@@ -183,7 +183,7 @@ h1 {
   border-radius: 20px;
   cursor: grab;
 }
-.winner-infos p {
+.w-i p {
   position: relative;
   top: 5%;
   background-color: red;
@@ -191,7 +191,7 @@ h1 {
   user-select: none;
 }
 medias section
---------------*/
+/*--------------*/
 .video-section{
     width: 1000px;
     margin: 0 auto;
@@ -237,7 +237,7 @@ medias section
   }
 /*section5endshere */
 /* footerstartsfromhere */
-.footer-section{
+.f-c{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -367,16 +367,16 @@ medias section
     display: flex;
     align-items: center;
   }
-  .winner-picture img {
+  .w-p img {
     width: 400px;
   }
-  .winner-infos {
+  .w-i {
     display: flex;
     flex-direction: column;
     width: 350px;
     /*height: 309px; */
   }
-  .winner-infos h1 {
+  .w-i h1 {
     font-size: 20px;
     width: 30px;
     color: black;
