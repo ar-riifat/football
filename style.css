@@ -354,7 +354,7 @@ medias section
     background-image: url(https://media.giphy.com/media/3o6vXTpomeZEyxufGU/giphy.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 427px;
+    height: 700px;
     margin-bottom: 3%;
   }
   .c-ac:hover .c-w{
@@ -367,13 +367,15 @@ medias section
     display: flex;
     align-items: center;
   }
-  .w-p img {
+  .winner-picture img {
     width: 400px;
+    height: 100px;
   }
   .w-i {
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 500px;
+    height: 200px;
     /*height: 309px; */
   }
   .w-i h1 {
