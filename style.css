@@ -51,7 +51,7 @@ body a {
 /* mainpartstarts */
 /* bannerworkstartshere */
 /* section1startshere */
-.p-p img {
+.image img {
   width: 550px;
 }
 .description {
@@ -64,7 +64,7 @@ body a {
   border-radius: 10px;
   padding: 10px 10px;
 }
-.c-a {
+.top {
   display: flex;
   flex-direction: column;
   padding-left: 7%;
@@ -82,7 +82,7 @@ body a {
   width: 100%;
   margin-bottom: 2%;
 }
-.c-container:hover .c-a {
+.c-container:hover .top {
   transform: scale(0.9);
   opacity: 0.5;
   transition: transform 1.2s ease-in-out;
@@ -126,11 +126,11 @@ main {
   box-shadow: 1px 1px 10px grey;
   overflow: hidden;
 }
-.photo-frame .ph:hover {
+.photo-frame .picture:hover {
   transform: scale(1.2);
   transition: transform 1s ease-in-out;
 }
-.ph img {
+.picture img {
   width: 100%;
 }
 .photo-description p,
@@ -141,39 +141,39 @@ h1 {
 /* section2endshere */
 
 /* section3startshere */
-.c-ac {
+.middle {
   background-image: url(https://thumbs.gfycat.com/ExcellentPoliteAmphiuma-size_restricted.gif);
   background-repeat: no-repeat;
   background-size: cover;
   height: 427px;
   margin-bottom: 3%;
 }
-.c-ac:hover .c-w {
+.middle:hover .euro {
   transform: scale(0.98);
   transition: transform 2s ease-in-out;
 }
-.c-w {
+.euro {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   display: flex;
   align-items: center;
 }
-.w-i img {
+.uefa img {
   width: 450px;
 }
-.w-i{
+.uefa{
   display: flex;
   flex-direction: column;
   width: 466px;
   /*height: 309px; */
 }
-.w-i h1 {
+.uefa h1 {
   font-size: 60px;
   width: 485px;
   height: 230px;
   color: black;
 }
-.w-i a {
+.uefa a {
   color: #ffffff;
   text-align: center;
   padding-top: 4%;
@@ -183,7 +183,7 @@ h1 {
   border-radius: 20px;
   cursor: grab;
 }
-.w-i p {
+.uefa p {
   position: relative;
   top: 5%;
   background-color: red;
@@ -211,7 +211,7 @@ medias section
 .video-details span{
     color: #E02C6D;;
 }
-.con{
+.video{
     width: 70%;
 }
 
@@ -237,7 +237,7 @@ medias section
   }
 /*section5endshere */
 /* footerstartsfromhere */
-.f-c{
+.footer{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -281,20 +281,20 @@ medias section
     width: 100%;
   }
 
-  .c-a {
+  .top {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
     display: flex;
     justify-content: center;
   }
-  .c-a img {
+  .top img {
     width: 150px;
   }
-  .c-a h1 {
+  .top h1 {
     font-size: 15px;
   }
-  .c-a a {
+  .top a {
     font-size: 15px;
     background-color: rgb(121, 113, 114);
     color: white;
@@ -309,7 +309,7 @@ medias section
     text-align: center;
     padding-bottom: 2%;
   }
-  .c-ac {
+  .middle {
     display: none;
   }
   .logo-description {
@@ -324,18 +324,18 @@ medias section
     width: 100%;
   }
 
-  .c-a {
+  .top{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
   }
-  .c-a img {
+  .top img {
     width: 150px;
   }
-  .c-a h1 {
+  .top h1 {
     font-size: 15px;
   }
-  .c-a {
+  .top {
     font-size: 15px;
     background-color: rgb(121, 113, 114);
     color: white;
@@ -350,18 +350,18 @@ medias section
     text-align: center;
     padding-bottom: 2%;
   }
-  .c-ac {
+  .middle {
     background-image: url(https://media.giphy.com/media/3o6vXTpomeZEyxufGU/giphy.gif);
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
     margin-bottom: 3%;
   }
-  .c-ac:hover .c-w{
+  .middle:hover .euro{
     transform: scale(0.98);
     transition: transform 2s ease-in-out;
   }
-  .c-w{
+  .euro{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     display: flex;
@@ -371,14 +371,14 @@ medias section
     width: 400px;
     height: 100px;
   }
-  .w-i {
+  .uefa {
     display: flex;
     flex-direction: column;
     width: 500px;
     height: 200px;
     /*height: 309px; */
   }
-  .w-i h1 {
+  .uefa h1 {
     font-size: 20px;
     width: 30px;
     color: black;
